@@ -171,6 +171,11 @@ footer {
   margin-bottom: 10px;
 }
 
-/* .footer-btn{
-  max width: 10%;
-} */
+@media screen and (max-width: 576px) {
+  .my-skills {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Add spacing between skill items */
+  }
+}
